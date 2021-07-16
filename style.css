@@ -1,0 +1,116 @@
+
+/*----------- font-------  */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&display=swap');
+
+
+
+
+
+
+
+/* ================================navberstyle===========================
+-------------------------------------------------------------------------  */
+.menu-bar{background-color: rgba(91, 166, 236, 0.5);
+
+    
+}
+ul{
+   
+   display:flex;
+justify-content:space-around;
+    list-style: none;
+    padding: 20px 15px;
+}
+li{
+    font-size: 20px;
+  
+    
+    
+}
+li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 15px;
+    
+    
+}
+a:hover{
+    color: rgb(126, 121, 121);
+   background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    transform: scale(80deg);
+}
+.head-icon{
+    color: rgba(0, 0, 255, 0.445);
+}
+
+/* ======header style=======
+============================= */
+
+.header-container{
+    
+    background-image: url(./images/bg-6.jpg);
+}
+.my-name{
+    
+    font-family: 'Merriweather', serif;
+    text-align: center;
+     
+}
+
+.name-1{
+    font-size: 3em;
+}
+.name-1:hover{
+    text-shadow: 0px 0px 20px rgb(4, 146, 92);
+}
+
+hr{
+    border: 1px solid rgb(115, 164, 184);
+    width: 500px;
+}
+/* header text  */
+.header-texts{
+    display: flex;
+    justify-content: center;
+    
+}
+.header-text
+{
+    text-align: center;
+}
+    
+
+.about-me{
+   text-align: center;
+    width: 400px;
+}
+
+/*----------------------------------
+====================== main styel=============
+----------------------------------------------------- */
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.profile-container{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   align-items: center;
+   margin:50px 0px;
+}
+.profile-details{
+text-align: center;
+font-size: 1.4em;
+}
+.profile-name{
+    font-family: 'Merriweather', serif;
+}
+.profile-info{
+    width: 500px;
+}
+.image{
+    width: 400px;
+}
